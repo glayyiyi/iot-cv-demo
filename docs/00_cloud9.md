@@ -9,3 +9,6 @@
 ![](./md_image/cloud9_5.png)
 ![](./md_image/cloud9_6.png)
 ![](./md_image/cloud9_7.png)
+
+最后执行如下的命令安装AWSIoTPythonSDK：
+sudo pip install AWSIoTPythonSDK

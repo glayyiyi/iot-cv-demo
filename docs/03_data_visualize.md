@@ -23,7 +23,9 @@
 ![](./md_image/dashboard/4.jpg)
 
 - 网络配置选择“公有访问权限”， 为方便测试访问策略选择”允许对域进行公开访问“
-![](./md_image/dashboard/5.jpg)
+![](./md_image/es-01.png)
+![](./md_image/es-02.png)
+
 
 *注意：仅在测试环境使用该策略，在生产环境建议对权限进行更为严格的设置*
 
@@ -77,6 +79,10 @@ PUT cars
 ```
 
 *通过命令 DELETE index_name 可以删除已有的索引*
+
+增加相应的权限
+![](./md_image/es-03.png)
+![](./md_image/es-04.png)
 
 在ES控制台可以看到相应的索引已经创建出来
 ![](./md_image/dashboard/8.jpg)

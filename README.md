@@ -2,9 +2,7 @@
 基于AWS IoT构建车联网平台的演示环境，并作为IoT Builder's Day的动手实验材料
 
 ## 目标
-- 通过AWS IoT服务构建一个将模拟设备接入AWS IoT，通过模拟设备向AWS IoT云端发送传感器数据，并进行模拟控制和对传感器数据进行实时展示.
-
-![](./md_image/diagram-lab02.jpg)
+- 通过AWS IoT服务将一个模拟设备接入AWS IoT，通过模拟设备向AWS IoT云端发送传感器数据，利用AWS IoT Shadow来进行设备状态的控制和对传感器数据进行实时展示.
 
 ## 内容框架
 ### AWS IoT 基本功能

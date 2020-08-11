@@ -78,11 +78,10 @@ PUT cars
 }
 ```
 
-*通过命令 DELETE index_name 可以删除已有的索引*
 
-增加相应的权限
+*增加相应的权限*
 ![](./md_image/es-03.png)
-![](./md_image/es-04.png)
+arn:aws:iam::accountID:role/Admin
 
 在ES控制台可以看到相应的索引已经创建出来
 ![](./md_image/dashboard/8.jpg)
@@ -144,6 +143,9 @@ SELECT *, timestamp() as timestamp FROM 'connectedcar/#'
 ### 3. 通过Kibana进行数据展示配置
 
 #### 3.1 创建Index Pattern
+*增加相应的权限*
+![](./md_image/es-04.png)
+arn:aws:iam::accountID:role/iot-es-action-role
 
 - 在Cloud9中运行car_publish.py，可以看到数据已经不断产生
 ![](./md_image/dashboard/60.jpg)

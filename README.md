@@ -2,8 +2,11 @@
 基于AWS IoT构建车联网平台的演示环境，并作为IoT Builder's Day的动手实验材料
 
 ## 目标
-- 通过AWS IoT服务构建一个完整的车联网平台, 包括车辆接入与管理, 数据上传与指令下发, OTA等车联网常见功能.
-- 操作文档与界面截图均为中文
+- 通过AWS IoT服务构建一个将模拟设备接入AWS IoT，通过模拟设备向AWS IoT云端发送传感器数据，并进行模拟控制和对传感器数据进行实时展示.
+
+![](./md_image/diagram-lab02.jpg)
+- light.py : 模拟设备
+- light_controller.py : 模拟设备控制器
 
 ## 内容框架
 ### AWS IoT 基本功能
